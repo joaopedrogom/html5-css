@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <h1>Página 02</h1>
+    <p>Essa é a página 2! Bem-vindo</p>
+    <a href="index.html" target="_self" rel="prev">Voltar para a página 1</a>
+    <h1>Imagens dinâmicas e áudio</h2>
+    <hr>
+    <h2>Imagens dinâmicas</h2>
+    <picture>
+        <source media="(max-width: 1050px)" srcset="imagens/foto-p.png" type="image/png">
+        <img src="imagens/foto-m.png" alt="Imagem flexível">
+    </picture>
+    <h2>Áudios</h2>
+    <audio preload="metadata" controls>
+        <source src="musica/Há um Deus.mp3" type="audio/mpeg">
+        <source src="musica/Há um Deus.mp3" type="audio/ovv">
+        <source src="musica/Há um Deus.mp3" type="audio/wav">
+    </audio>
+    <p>Se o áudio não funcionou você pode <a href="musica/Há um Deus.mp3" download="Há um Deus">clicar para baixa-lo</a></p>
+    <h1>Vídeos</h1>
+    <hr>
+    <h2>Vídeos de hospedagem externa</h2>
+    <h3>Youtube</h3>
+    <p>Inserindo vídeos do youtube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/niHBad1vAkE?si=RQPdBNYPs5JYGl14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</main>
+</body>
+</html>
